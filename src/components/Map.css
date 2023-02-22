@@ -1,0 +1,35 @@
+.Info-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+ 
+
+}
+
+.MapContainer{
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.342);
+    align-self: center;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+.Info-header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    writing-mode: vertical-lr;
+    font-size: 46px;
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 1px rgba(90, 89, 89, 0.616);
+}
+
+.custom-popup{
+    font-size: 24px;
+}

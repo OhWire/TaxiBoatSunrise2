@@ -1,0 +1,61 @@
+.navbar__container{
+    display: flex;
+    position: fixed;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.116);
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    justify-content:space-around;
+    font-size: 22px;
+    padding: 0 1em;
+    z-index: 999;
+}
+
+.nav__items{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin-right: -50px;
+}
+
+.nav__item{
+    display: flex;
+    padding: 0 2em 2px 2em;
+    transition: 0.2s ease-in-out ;
+
+}
+.nav__item:hover{
+    display: flex;
+    padding: 0px 2em 2px 2em;
+    transition:0.4s ease-in-out ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.589);
+    text-shadow: 0.2px 0.3px rgba(255, 255, 255, 0.589);
+    color: rgba(255, 255, 255, 0.655);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.NavLogo{
+    display: flex;
+   padding: 160px 300px 0 0px;
+   margin: 0;
+   max-height: 140px;
+}
+
+.company-name{
+    display: flex;
+    margin-right: 2em;
+    
+  
+}
+.company-name h2{
+    padding-top: 10px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;   
+}
+.nav-links{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.655);
+}

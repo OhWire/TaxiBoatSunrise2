@@ -1,0 +1,90 @@
+.Home{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 0.2fr 100%  0.6fr;
+    background-size: cover;
+    z-index: -2;
+}
+
+
+.Background{
+    display: grid;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    color: rgb(245, 232, 216);
+    background-image: url(./img/backkground4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows:  0.2fr 1.3fr 0.1fr 1.5fr 1.5fr 0.6fr;
+  }
+
+.background-text{
+    display: flex; 
+    text-align: right;
+    justify-content: flex-end;
+    grid-column: 8/11;
+    grid-row: 2/2;
+    font-size: 80px;
+    padding-right: 20px;
+    text-shadow: 2px 2px 3px  rgba(92, 91, 91, 0.582);;
+    
+
+}
+.Navbar{
+    grid-column: 1/-1;
+    grid-row: 1/1;
+}
+
+.background-text h2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.Booking{
+    display: flex;
+    grid-column: 2/6;
+    grid-row: 2/2;
+    align-items: center;
+}
+
+.spacer{
+    display:flex;
+    grid-column: 1/-1;
+    grid-row: 3/3;
+    align-self: flex-end;
+    backdrop-filter: blur(8px);
+    box-shadow: rgba(37, 37, 37, 0.425) 2px 2px 6px;
+    height: 2px;
+}
+
+.Info{
+    display: flex;
+    grid-column: 1/-1;
+    grid-row: 4/4;
+    background-color: rgba(245, 232, 216, 0.297);
+    align-items: center;
+    box-shadow: 2px 2px 6px rgb(44, 43, 43);
+    margin-bottom: 4em;
+}
+
+.about{
+    display: flex;
+    grid-column: 1/-1;
+    grid-row: 5/5;
+    align-items: center;
+    background-color: black;
+    box-shadow: 2px 5px 3px 1px rgba(255, 255, 255, 0.684);
+    margin-bottom: 8em;
+}
+
+
+
+.Footer{
+    grid-column: 1/-1;
+    grid-row: 6/6;
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.508);
+}
