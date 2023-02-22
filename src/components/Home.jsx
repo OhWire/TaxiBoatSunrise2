@@ -6,7 +6,6 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import Info from './Info'
 import About from './About'
-import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Home = () => {
   return (

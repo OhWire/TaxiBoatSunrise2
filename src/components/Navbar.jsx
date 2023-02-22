@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import Logo from './img/Logo.png'
-import { Link, animateScroll as scroll } from 'react-scroll';
+
 
 const Navbar = () => {
 
