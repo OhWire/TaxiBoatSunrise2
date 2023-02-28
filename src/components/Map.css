@@ -33,3 +33,40 @@
 .custom-popup{
     font-size: 24px;
 }
+
+
+@media screen  and (max-width: 960px) {
+    .MapContainer{
+        margin-right: 50px;
+    }
+
+}
+
+@media screen  and (max-width: 500px) {
+    .Info-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2.5em;
+        padding-bottom: 1em;
+        margin: 0;
+     
+    
+    }
+
+    .Info-header{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        writing-mode: horizontal-tb;
+        font-size: 21px;
+        padding: 0;
+        margin: 0;
+        text-shadow: 2px 2px 1px rgba(90, 89, 89, 0.616);
+    }
+    .MapContainer{
+        margin-right: 0px;
+    }
+
+}

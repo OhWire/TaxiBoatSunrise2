@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
                 </div>
                 
-                    <div className="social-media-wrap">
+                 <div className="social-media-wrap">
                         <small className="website-rights">
                             <img className='Logo' src={Logo} alt="Logo" />
                         </small>
